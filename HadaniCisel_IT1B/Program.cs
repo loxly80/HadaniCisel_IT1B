@@ -8,10 +8,17 @@ namespace HadaniCisel_IT1B
         {
             Random random = new Random();
             int nahCislo = random.Next(1,100);
+            int tipCislo;
+            bool neuhodl = true;
             Console.WriteLine(" Hadání čísla");
             Console.WriteLine("---------------------");
             Console.WriteLine($" Myslím si číslo od 1 do 100");
+            while (neuhodl)
+            {
+                Console.Write(" Tipni hodnotu: ");
+                tipCislo = int.Parse(Console.ReadLine());
 
+            }
             Console.ReadLine();
         }
     }
